@@ -27,10 +27,17 @@ const perguntas = [
     ]
 },
 {
-    enunciado: "Ao",
+    enunciado: "Ao final da discussão",
     alternativas: [
-        "Utiliza",
-        "Escreve"
+        "Criar uma imagem",
+        "Criar uma imagem"
+    ]
+},
+{
+    enunciado: "Você tem",
+    alternativas: [
+        "Escrever",
+        "O chat pode ser"
     ]
 },
 ];
