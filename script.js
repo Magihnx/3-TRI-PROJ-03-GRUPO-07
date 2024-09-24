@@ -6,17 +6,31 @@ const textoResultado = document.querySelector (".texto-resultado");
 
 const perguntas = [
     {
-    enunciado: "Pergunta 1",
+    enunciado: "Assim que saiu da escola vocẽ se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
     alternativas: [
-        "Alternativa 1",
-        "Alternativa 2"
+        "Isso é assustador!",
+        "Isso é maravilhoso!"
     ]
     },
 {
-    enunciado: "Pergunta 2",
+    enunciado: "Com",
     alternativas: [
-        "Alternativa 1",
-        "Alternativa 2"
+        "Utiliza",
+        "Escreve"
     ]
-}
+},
+{
+    enunciado: "Após",
+    alternativas: [
+        "Defende a ideia",
+        "Me preocupo"
+    ]
+},
+{
+    enunciado: "Ao",
+    alternativas: [
+        "Utiliza",
+        "Escreve"
+    ]
+},
 ];
