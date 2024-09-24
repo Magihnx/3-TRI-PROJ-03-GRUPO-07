@@ -6,39 +6,79 @@ const textoResultado = document.querySelector (".texto-resultado");
 
 const perguntas = [
     {
-    enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+    enunciado: 
+    "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
     alternativas: [
-        "Isso é assustador!",
-        "Isso é maravilhoso!"
-    ]
+        {
+        texto: "Isso é assustador!",
+        afirmacao: afirmação,
+        },
+        { 
+        texto: "Isso é maravilhoso!",
+        afirmacao: afirmação,
+    },
+    ],
     },
 {
-    enunciado: "Com",
+    enunciado: 
+    "Com",
     alternativas: [
+        {
+        texto: 
         "Utiliza",
-        "Escreve"
-    ]
+        afirmacao: afirmação,
+        },
+        {
+            texto: 
+            "Escreve",
+            afirmacao: afirmação,
+        },
+    ],
 },
 {
-    enunciado: "Após",
+    enunciado: 
+    "Após",
     alternativas: [
+        {
+        texto:
         "Defende a ideia",
-        "Me preocupo"
-    ]
+        afirmacao: afirmação,
+        },
+        {
+        texto: 
+        "Me preocupo",
+        afirmacao: afirmação,
+        },
+    ],
 },
 {
-    enunciado: "Ao final da discussão",
+    enunciado: 
+    "Ao final da discussão",
     alternativas: [
-        "Criar uma imagem",
-        "Criar uma imagem"
-    ]
+        {
+        texto: "Criar uma imagem",
+        afirmacao: afirmação,
+        },
+        {
+        texto: "Criar uma imagem",
+        afirmacao: afirmação,
+        },
+    ],
 },
 {
-    enunciado: "Você tem",
+    enunciado: 
+    "Você tem",
     alternativas: [
+        {
+        texto: 
         "Escrever",
-        "O chat pode ser"
-    ]
+        afirmacao: afirmação,
+        },
+        {
+        texto: "O chat pode ser",
+        afirmacao: afirmação,
+        },
+    ],
 },
 ];
 
@@ -52,10 +92,14 @@ function mostraPergunta(){
 }
 
 function mostraAlternativas(){
-    for (const alternativa of perguntaAtual.alternativas){
-        const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa;
+    for (const alternativa of perguntaAtual.alternativas){ 
+        const botaoAlternativas = document.createElement("button");   
+        botaoAlternativas.textContent = alternativa.texto;
+        botaoAlternativas.addEventListener("click", function () {
+            atual++,
+            mostraPergunta();
+        });
+        
         caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
-mostraPergunta();
