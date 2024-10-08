@@ -6,8 +6,7 @@ const textoResultado = document.querySelector (".texto-resultado");
 
 const perguntas = [
     {
-    enunciado: 
-    "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+    enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
     alternativas: [
         {
         texto: "Isso é assustador!",
@@ -85,12 +84,6 @@ const perguntas = [
 let atual = 0;
 let perguntaAtual;
 
-function mostraPergunta(){
-    perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
-    mostraAlternativas();
-}
-
 function mostraAlternativas(){
     for (const alternativa of perguntaAtual.alternativas){ 
         const botaoAlternativas = document.createElement("button");   
@@ -104,3 +97,9 @@ function mostraAlternativas(){
     }
 }
 mostraPergunta();
+function mostraPergunta(){
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    mostraAlternativas();
+}
+
