@@ -90,7 +90,7 @@ function mostraAlternativas(){
         botaoAlternativas.addEventListener("click", function () {
             atual++;
             mostraPergunta();
-        });
+        })
         
         caixaAlternativas.appendChild(botaoAlternativas);
     }
