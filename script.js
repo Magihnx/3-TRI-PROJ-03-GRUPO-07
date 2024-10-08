@@ -16,8 +16,8 @@ const perguntas = [
         { 
         texto: "Isso é maravilhoso!",
         afirmacao: afirmação,
-    },
-    ],
+    }
+    ]
     },
 {
     enunciado: 
@@ -32,8 +32,8 @@ const perguntas = [
             texto: 
             "Escreve",
             afirmacao: afirmação,
-        },
-    ],
+        }
+    ]
 },
 {
     enunciado: 
@@ -48,8 +48,8 @@ const perguntas = [
         texto: 
         "Me preocupo",
         afirmacao: afirmação,
-        },
-    ],
+        }
+    ]
 },
 {
     enunciado: 
@@ -62,8 +62,8 @@ const perguntas = [
         {
         texto: "Criar uma imagem",
         afirmacao: afirmação,
-        },
-    ],
+        }
+    ]
 },
 {
     enunciado: 
@@ -77,8 +77,8 @@ const perguntas = [
         {
         texto: "O chat pode ser",
         afirmacao: afirmação,
-        },
-    ],
+        }
+    ]
 },
 ];
 
