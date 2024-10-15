@@ -20,16 +20,15 @@ const perguntas = [
     ]
     },
 {
-    enunciado: 
-    "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+    enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
     alternativas: [
         {
         texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-        afirmacao: afirmação,
+        afirmacao: "afirmação"
         },
         {
             texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-            afirmacao: afirmação,
+            afirmacao: "afirmação"
         }
     ]
 },
@@ -38,11 +37,11 @@ const perguntas = [
     alternativas: [
         {
         texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-        afirmacao: afirmação,
+        afirmacao: "afirmação"
         },
         {
         texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-        afirmacao: afirmação,
+        afirmacao: "afirmação"
         }
     ]
 },
@@ -51,11 +50,11 @@ const perguntas = [
     alternativas: [
         {
         texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-        afirmacao: afirmação,
+        afirmacao: "afirmação"
         },
         {
         texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-        afirmacao: afirmação,
+        afirmacao: "afirmação"
         }
     ]
 },
@@ -64,14 +63,14 @@ const perguntas = [
     alternativas: [
         {
         texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-        afirmacao: afirmação,
+        afirmacao: "afirmação"
         },
         {
         texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-        afirmacao: afirmação,
+        afirmacao: "afirmação"
         }
     ]
-}
+},
 ];
 
 let atual = 0;
